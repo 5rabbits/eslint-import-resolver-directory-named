@@ -1,0 +1,30 @@
+{
+  "name": "@5rabbits/eslint-plugin-import-directory-named",
+  "version": "0.1.0",
+  "description": "eslint-plugin-import resolution plugin for modules named as their container directory.",
+  "keywords": [
+    "eslint",
+    "import",
+    "resolver",
+    "5rabbits",
+    "lemontech"
+  ],
+  "main": "index.js",
+  "author": "5rabbits <5rabbits@lemontech.com> (http://www.5rabbits.com)",
+  "repository": "https://github.com/5rabbits/eslint-plugin-import-directory-named",
+  "bugs": "https://github.com/5rabbits/eslint-plugin-import-directory-named/issues",
+  "homepage": "https://www.lemontech.com",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.0"
+  }
+}
