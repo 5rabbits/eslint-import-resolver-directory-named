@@ -1,6 +1,6 @@
 {
   "name": "@5rabbits/eslint-import-resolver-directory-named",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint-plugin-import resolution plugin for modules named as their container directory.",
   "keywords": [
     "eslint",
