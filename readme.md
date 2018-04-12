@@ -7,7 +7,7 @@ Config is passed directly to [`eslint-import-resolver-node`](https://www.npmjs.c
 ```yaml
 settings:
   import/resolver:
-    directory-named:
+    @5rabbits/eslint-import-resolver-directory-named:
       extensions:
         # if unset, default is just '.js', but it must be re-added explicitly if set
         - .js
@@ -33,5 +33,5 @@ or to use the default options:
 
 ```yaml
 settings:
-  import/resolver: directory-named
+  import/resolver: @5rabbits/eslint-import-resolver-directory-named
 ```
